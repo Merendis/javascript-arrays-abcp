@@ -7,8 +7,8 @@ function addElementToBeginningOfArray(array, element){
 addElementToBeginningOfArray(chocolateBars,"Heath");
 
 function destructivelyAddElementToBeginningOfArray(array, element){
-  return array.unshift(element);
-  
+  var newarray = array.unshift(element);
+  return newarray;
 }
 
 destructivelyAddElementToBeginningOfArray(chocolateBars, "Heath");
