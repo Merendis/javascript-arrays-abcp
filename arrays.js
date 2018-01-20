@@ -6,7 +6,6 @@ function addElementToBeginningOfArray(array, element){
 
 addElementToBeginningOfArray(chocolateBars,"Heath");
 
-<<<<<<< HEAD
 function destructivelyAddElementToBeginningOfArray(array, element){
   var bars = array.unshift(element)
   bars;
@@ -16,7 +15,8 @@ console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, "Heath"));
 
 function addElementToEndOfArray(array, element){
   return [ ...array, element];
-=======
+}
+
 function destructivelyAddElementToBeginningOfArray(){
   chocolateBars = chocolateBars.unshift("Heath");
 }
@@ -25,8 +25,6 @@ destructivelyAddElementToBeginningOfArray(chocolateBars, "Heath");
 
 function addElementToEndOfArray(array, element){
  return [ ...array, element];
-  
->>>>>>> 3ada32141f1abe1651d82abd03a8504414ac8b13
 }
 
 addElementToEndOfArray(chocolateBars,foo);
